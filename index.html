@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Olá! Meu nome é John e sou estudante e desenvolvedor front end! Estou a procura da minha primeira vaga como Junior, ou estágio!">
+</head>
+<meta name="keywords" content="portfólio, front end, estágio,d esenvolvedor junior">
+<meta name="author" content="John Ferreira">
+
+
+<title>Portfólio - John Ferreira</title>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="imagem/png" href="/img/redicon.png" />
+</head>
+
+<body>
+    <header class="header" id="header">
+        <img src="./img/redicon.png" alt="logotipo" class="logo">
+        <nav class="menu nav-bar">
+            <a href="home" class="menu--item">HOME</a>
+            <a href="#tecnologies" class="menu--item">LINGUAGENS</a>
+            <a href="#projects" class="menu--item">SOBRE MIM</a>
+            <a href="#contact" class="menu--item">CONTATO</a>
+            <label class="switch">
+                <input type="checkbox" name="change-theme" id="change-theme">
+                <span class="slider"></span>
+            </label>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img src="./img/menu.png" alt="" class="icon"></button>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <div class="mobile-menu">
+        <a href="home" class="menu--item">HOME</a>
+        <a href="#tecnologies" class="menu--item">LINGUAGENS</a>
+        <a href="#projects" class="menu--item">SOBRE MIM</a>
+        <a href="#contact" class="menu--item">CONTATO</a>
+    </div>
+
+
+    <section class="section--top" id="home">
+        <img src="./img/minhafoto.png" alt="minha foto">
+        <div class="container--description">
+            <h4 class="subtitle--top">Olá! Meu nome é John!</h4>
+            <h1 class="title--top">Desenvolvedor Front End</h1>
+            <p class="description--top">
+                Sabe quando você olha alguma coisa e se pergunta como aquilo funciona? Esse sempre fui eu olhando sites
+                 e apps na internet. E hoje eu continuo sendo essa pessoa, com curiosidade de tudo que encontro, porém hoje, 
+                 eu também crio meus próprios sites/apps. Vem me conhecer mais!
+            </p>
+            <button class="about-me">
+                <span>SOBRE MIM</span><i></i>
+            </button>
+        </div>
+    </section>
+
+    <section class="sec--section" id="tecnologies">
+        <div class="main--div">
+            <div class="main--tech">
+                <div class="sub--tech1 subclass">
+                    <img src="./img/bootstrap.png" alt="icon">
+                    <h1>BOOTSTRAP</h1>
+                    <p>Veja aqui uma landing page responsiva criada por mim a partir do Bootstrap.</p>
+                    <a href="">Ver projeto</a>
+                </div>
+                <div class="sub--tech2 subclass">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <h1>JAVASCRIPT</h1>
+                    <p>Veja aqui, uma calculadora de jobs, criada por mim, a partir de Jscript.</p>
+                    <a href="">Ver projeto</a>
+                </div>
+                <div class="sub--tech1 subclass">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                    <h1>REACT</h1>
+                    <p>Veja aqui, um projeto criado por mim, totalmente em REACT!</p>
+                    <a href="">Ver projeto</a>
+                </div>
+            </div>
+            <div class="title--formation">
+                <H1>Cursos e Formação:</H1>
+            </div>
+            <div class="formation">
+                <div class="formation--item">
+                    <div class="logo--form">
+                        <img src="./img/logo-estacio-.png" alt="">
+                    </div>
+                    <div>
+                        <h1>Análise e desenvolvimento de sistemas</h1>
+                        <h2>Instituição: Estácio (em andamento)</h2>
+                        <details>
+                            <summary>Grade Curricular</summary>
+                            <p>Programação e estrutura de dados em C, segurança da informação, banco de dados, web
+                                services em LINUX,
+                                JScript, PHP, Python, engenharia de software, POO em JAVA, Big data em Python. </p>
+                        </details>
+                    </div>
+                </div>
+
+                <div class="formation--item">
+                    <div class="logo--form">
+                        <img src="./img/obc.png" alt="">
+                    </div>
+                    <div>
+                        <h1>Fullstack JavaScript</h1>
+                        <h2>Instituição: One Bit Code</h2>
+                        <details>
+                            <summary>Grade Curricular</summary>
+                            <p>HTML, CSS, JavaScript, REACT, Bootstrap, GIT e github, Typescript, MongoDB, SQL.</p>
+                        </details>
+                    </div>
+                </div>
+            </div>
+            <div class="formation">
+                <div class="formation--item">
+                    <div class="logo--form">
+                        <img src="./img/obcblack.png" alt="">
+                    </div>
+                    <div>
+                        <h1>One Bit Code Black</h1>
+                        <h2>Instituição: One Bit Code</h2>
+                        <details>
+                            <summary>Grade Curricular</summary>
+                            <p>API Rest, Next.JS, Clean code, Docker, Testes Automatizados, SOLID, Ui/Ux design.</p>
+                        </details>
+                    </div>
+                </div>
+                <div class="formation--item">
+                    <div class="logo--form">
+                        <img src="./img/progbr.png" alt="">
+                    </div>
+                    <div>
+                        <h1>Programador Fullstack</h1>
+                        <h2>Instituição: Programador Br</h2>
+                        <details>
+                            <summary>Grade Curricular</summary>
+                            <p> HTML, CSS, JavaScript, Firebase, Jquery, Bootstrap, Node.JS, Node Express, MongoDB,
+                                REACT. </p>
+                        </details>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="projects--title">
+            <div class="projects--subtitle">
+                <h1>Meus projetos:</h1>
+                <h2>Projetos criados desde o início dos estudos</h2>
+            </div>
+            <div class="button--git">
+                <a href="https://github.com/DevWebBrasil">
+                    <button class="about-me">
+                        <span>PERFIL GITHUB</span><i></i>
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="examples">
+            <div class="intern--exemple">
+                <h1>Landing Page</h1>
+                <video width="320" height="240" controls>
+                    <source src="./videos/landingPagr.mp4" type="video/mp4">
+                </video>
+                <a class="btn" href="https://github.com/DevWebBrasil/LandingPageOneBitCode" target="_blank">code on
+                    GITHUB</a>
+            </div>
+            <div class="intern--exemple">
+                <h1>Job Calculator</h1>
+                <video width="320" height="240" controls>
+                    <source src="./videos/calculadora.mp4" type="video/mp4">
+                </video>
+                <a class="btn" href="https://github.com/DevWebBrasil/Job-Calculator" target="_blank">code on GITHUB</a>
+            </div>
+        </div>
+
+        <div class="examples">
+            <div class="intern--exemple">
+                <h1>Urna Eletônica</h1>
+                <video width="320" height="240" controls>
+                    <source src="./videos/urna.mp4" type="video/mp4">
+                </video>
+                <a class="btn" href="https://github.com/DevWebBrasil/UrnaEletronica" target="_blank">code on GITHUB</a>
+            </div>
+            <div class="intern--exemple">
+                <h1>Job Calculator</h1>
+                <video width="320" height="240" controls>
+                    <source src="./videos/landingPagr.mp4" type="video/mp4">
+                </video>
+                <a class="btn" href="https://github.com/DevWebBrasil/Job-Calculator" target="blank">code on GITHUB</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="bg">
+        <div></div>
+    </section>
+
+    <section class="work--together" id="contact">
+        <div class="work--contact">
+            <h1>Então, vamos trabalhar juntos?</h1>
+            <p>Entre em contato, tenho certeza que posso agregar muito para sua empresa/negócio!</p>
+        </div>
+        <div class="button--contact">
+            <a href="https://web.whatsapp.com/send?phone=5511982663159?text=Olá John! Vim através do seu portfólio! Vamos conversar?"
+                target="blank"> CONTATO
+            </a>
+        </div>
+    </section>
+
+    <footer>
+
+        <div class="icon--footer">
+            <img src="/img/redicon.png" alt="">
+        </div>
+        <div class="icon--social">
+            <a href="https://web.whatsapp.com/send?phone=5511982663159?text=Olá John! Vim através do seu portfólio! Vamos conversar?" target="blank"><img src="/img/whatsapp.png" alt=""></a>
+            <a href="https://github.com/DevWebBrasil" target="blank"><img src="/img/github1.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/jonata-ferreira-04b6b323a/" target="blank"><img src="/img/linkedin.png" alt=""></a>
+        </div>
+        <div class="created">
+            criado por: John Ferreira
+        </div>
+
+    </footer>
+
+    <div data-scroll="soft" data-anima="scroll">
+        <a href="#header">
+            <div class="top">
+                <img src="./img/upload.png" alt="voltar ao topo">
+            </div>
+
+        </a>
+
+    </div>
+
+    <script src="./js/scroll.js"></script>
+    <script src="./js/darkmode.js"></script>
+    <script src="./js/mobilemenu.js"></script>
+
+</body>
+
+</html>
