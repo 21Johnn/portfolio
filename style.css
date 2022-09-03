@@ -8,6 +8,10 @@ body{
     background-color: black;
     transition: 0.3s;
 }
+html {
+    scroll-behavior: smooth;
+  }
+
 
 
 /*light mode*/
